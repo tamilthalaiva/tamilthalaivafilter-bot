@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Malik7983/file-filter-bot.git /file-filter-bot
+  git clone https://github.com/tamilthalaiva/tamilthalaivafilter-bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /file-filter-bot
+  git clone $UPSTREAM_REPO /tamilthalaivafilter-bot
 fi
 cd /file-filter-bot
 pip3 install -U -r requirements.txt
